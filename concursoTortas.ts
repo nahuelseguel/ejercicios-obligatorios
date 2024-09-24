@@ -17,7 +17,7 @@
 
 import * as fs from 'readline-sync';
 
-let cantParticipantes: number = fs.questionInt("Ingrese la cantidad de participantes: ");
+const cantParticipantes: number = fs.questionInt("Ingrese la cantidad de participantes: ");
 let puntSabor: number = 0;
 let puntPresentacion: number = 0;
 let puntDificultad: number = 0; 
@@ -38,6 +38,7 @@ for(let i: number = 1; i <= cantParticipantes; i++){
     if(puntaje > comparacion){
         comparacion = puntaje;
         posicion = i;
+        contEmpates = 0;
     } else if (puntaje === comparacion){
         contEmpates += 1;
     }
@@ -49,6 +50,6 @@ if(contEmpates != 0){
 
 function calcularPuntaje(puntSabor: number, puntPresentacion: number, puntDificultad: number, ): number{
 
-    let puntTotal: number = puntSabor + puntPresentacion + puntDificultad;;
+    const puntTotal: number = puntSabor + puntPresentacion + puntDificultad;
     return puntTotal;
 }
