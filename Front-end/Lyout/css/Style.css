@@ -24,7 +24,6 @@ h1{
     border-radius:  2em ;
     padding: 1%;
     height: 87vh;
-    box-sizing: border-box;
     scrollbar-color: rgb(38, 38, 241) rgb(58, 29, 58) !important;
 }
 
