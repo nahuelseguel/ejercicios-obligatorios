@@ -1,0 +1,118 @@
+/* A cada Div darle las propiedades vistas (borde, padding,
+margen, tamaño) 
+
+• Probar cómo se modifica la apariencia cambiando el
+tamaño, el padding, márgenes y bordes.
+
+• Agregar div con tamaño en porcentaje, ver qué sucede
+cuando achicamos la ventana del navegador. */
+body{
+    background-image: url('../images/mortal-kombat-logo.png');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Big-content{
+    display: inline-flex;
+    justify-content: space-evenly;
+    border: solid rgb(85, 73, 85);
+    border-radius:  2em ;
+    padding: 1%;
+    height: 87vh;
+    box-sizing: border-box;
+    scrollbar-color: rgb(38, 38, 241) rgb(58, 29, 58) !important;
+}
+
+.tittle-div1{
+    color: rgb(5, 11, 100);
+}
+
+.tittle-div2{
+    color: rgb(255, 239, 14);
+}
+
+.tittle-div3{
+    color: rgb(5, 100, 13);
+}
+
+.character1{
+    color: rgb(131, 10, 10);
+}
+
+.character2{
+    color: rgb(243, 27, 243);
+}
+
+.character3{
+    color: rgb(255, 255, 255);
+}
+
+.liu-kang{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.scorpion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 179);
+}
+
+.shao-kang{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(187, 184, 27);
+}
+
+.content1{
+    background-image: url('../images/Liu-Kang.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;;
+    height: 80vh;
+    border: solid 3px blue;
+    border-radius: 2em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    opacity: 0.2 ;
+}
+
+.content2{
+    background-image: url('../images/Scorpion.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 80vh;
+    border: solid 3px yellow;
+    border-radius: 2em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    opacity: 0.3 ;
+}
+
+.content3{
+    background-image: url('../images/Shao-Khan.jpg');
+    background-size: cover;
+    width: 30%;
+    height: 80vh;
+    border: solid 3px green;
+    border-radius: 2em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    opacity: 0.6 ;
+}
+
+.content1:hover{
+    opacity: 0.7;;
+}
+
+.content2:hover{
+    opacity: 0.8;;
+}
+
+.content3:hover{
+    opacity: 0.9;;
+}
