@@ -62,7 +62,7 @@ h1{
     color: rgb(0, 255, 179);
 }
 
-.shao-kang{
+.shao-kahn{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(187, 184, 27);
 }
@@ -106,13 +106,13 @@ h1{
 }
 
 .content1:hover{
-    opacity: 0.7;;
+    opacity: 0.7;
 }
 
 .content2:hover{
-    opacity: 0.8;;
+    opacity: 0.8;
 }
 
 .content3:hover{
-    opacity: 0.9;;
+    opacity: 0.9;
 }
